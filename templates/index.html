@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">    
     <title>Mission to Mars</title>
 
@@ -11,13 +11,13 @@
         href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     />
 </head>
-<body>
+<body style="background-color:darksalmon; color:black">
     <div class="container">
-        <div class="jumbotron text-center">
+        <div style="background:linear-gradient(to bottom, #ffcccc 15%, #e9967a 85%)!important" class="jumbotron text-center">
             <h1>Mission to Mars</h1>
             <!--Add a button to activate scraping script-->
-            <p><a class="btn btn-primary btn-lg" href="/scrape"
-                role="button">Scrape New Data</a></p>
+            <p><a class="btn btn-default btn-lg" href="/scrape"
+                role="button"><b>Scrape New Data</b></a></p>
         </div>
         <!--Add section for Mars News-->
         <div class="row" id="mars-news">
@@ -46,7 +46,7 @@
             <div class="col-md-4">
                 <!--Mars Facts-->
                 <div class="row" id="mars-facts">
-                    <h4>Mars Facts</h4>
+                    <h3>Mars Facts</h3>
                     {{mars.facts|safe}}
                 </div>
             </div>
@@ -56,16 +56,15 @@
             <div class="col-md-12">
                 <h2><center>Mars Hemispheres</center></h2>
                 {% for hemisphere in mars.hemispheres %}
-                    <div class="col-md-6">
+                    <div class="col-md-3">
                         <div class = "thumbnail">
                             <img src="{{hemisphere.img_url}}"
-                                <h3><b>{{hemisphere.title}}</b></h3>
+                              <h2><b>{{hemisphere.title}}</b></h2>
                         </div>
                     </div>
                 {% endfor %}
             </div>
         </div>
     </div>
-    
 </body>
 </html>

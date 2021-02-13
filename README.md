@@ -1,4 +1,4 @@
-# Mission-to-Mars - a web scraping activity
+# Mission-to-Mars - A Web Scraping Activity
 
 ![astro](https://github.com/amylio/Mission-to-Mars/blob/main/MOD10_Challenge_Submission/images/astropic.jpeg)
 
@@ -45,7 +45,7 @@ To complete the final deliverable, the following changes were made to the `Boots
  - **original tag** `<div class_"jumbotron text-center">`
  ![jumbotron](https://github.com/amylio/Mission-to-Mars/blob/main/MOD10_Challenge_Submission/images/orig_jumbotron.png)
 
- - **updated tag** `<<div style="background:linear-gradient(to bottom, #ffcccc 15%, #e9967a 85%)!important" class="jumbotron text-center">` 
+ - **updated tag** `<div style="background:linear-gradient(to bottom, #ffcccc 15%, #e9967a 85%)!important" class="jumbotron text-center">` 
 ![newjumbotron](https://github.com/amylio/Mission-to-Mars/blob/main/MOD10_Challenge_Submission/images/Newjumbotron.png)
 
 (2) Changed the orientation of the hemisphere images to a single ribbon by changing the grid from `col-md-6` to `col-md-3`.

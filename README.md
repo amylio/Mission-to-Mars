@@ -41,7 +41,7 @@ Lastly, we modified the HTML file to loop through the dictionary and pull the ti
 
 To complete the final deliverable, the following changes were made to the `Bootstrap` components to customize the view of the page:
 
-(1) Updated the color of the Jumbotron header by adding gradient color shading and updating the scrape button.
+(1) Updated the color of the Jumbotron header by adding gradient color shading and changing the color of the scrape button.
  - **original tag** `<div class_"jumbotron text-center">`
  ![jumbotron](https://github.com/amylio/Mission-to-Mars/blob/main/MOD10_Challenge_Submission/images/orig_jumbotron.png)
 

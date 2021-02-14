@@ -43,9 +43,11 @@ To complete the final deliverable, the following changes were made to the `Boots
 
 (1) Updated the color of the Jumbotron header by adding gradient color shading and changing the color of the scrape button.
  - **original tag** `<div class_"jumbotron text-center">`
+ 
  ![jumbotron](https://github.com/amylio/Mission-to-Mars/blob/main/MOD10_Challenge_Submission/images/orig_jumbotron.png)
 
  - **updated tag** `<div style="background:linear-gradient(to bottom, #ffcccc 15%, #e9967a 85%)!important" class="jumbotron text-center">` 
+ 
 ![newjumbotron](https://github.com/amylio/Mission-to-Mars/blob/main/MOD10_Challenge_Submission/images/Newjumbotron.png)
 
 (2) Changed the orientation of the hemisphere images to a single ribbon by changing the grid from `col-md-6` to `col-md-3`.
